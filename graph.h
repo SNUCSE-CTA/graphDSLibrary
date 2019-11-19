@@ -63,6 +63,8 @@ public:
 	long long* realLabel = NULL; 	//this one-to-one mapping function maps 
 	map<string, long long> chemLabel;
 	map<long long, string> chemRealLabel;
+	map<long long, long long> snapID;
+	map<long long, long long> snapRealID; 
 									//a renamed label to the real label.
 	long long* labelFrequency = NULL; //labelFrequency[l]: #vertices having label l
 	long long* sortedVertex = NULL; //sortedVertex stores sorted vertices in their labels order
